@@ -9,7 +9,7 @@ Multi-fidelity wavelet neural operator surrogate model for time-independent and 
 
 ## Files
 ```
-:file_folder: Allen_Cahn                     # Contains files of the Allen Cahn equation.
+[file_folder] Allen_Cahn                     # Contains files of the Allen Cahn equation.
   |_📂 data                       # Folder for storing DATA and generating data.
     |_📄 Allen_cahn_Init.m                         # Generates random initial conditions for the Allen Cahn equation.
     |_📄 RandField_Matern.m                        # Generates random fields using Mattern kernel.
