@@ -9,7 +9,7 @@ Multi-fidelity wavelet neural operator surrogate model for time-independent and 
 
 ## Files
 ```
-[file_folder] Allen_Cahn                     # Contains files of the Allen Cahn equation.
+📂 Allen_Cahn                     # Contains files of the Allen Cahn equation.
   |_📂 data                       # Folder for storing DATA and generating data.
     |_📄 Allen_cahn_Init.m                         # Generates random initial conditions for the Allen Cahn equation.
     |_📄 RandField_Matern.m                        # Generates random fields using Mattern kernel.
@@ -28,7 +28,7 @@ Multi-fidelity wavelet neural operator surrogate model for time-independent and 
   |_📄 Multifid_WNO_AC_200samples.ipynb              # Notebook for time-dependent training MFWNO with HF 20 data.
   |_📄 Predictions_Allen_Cahn.ipynb                # Notebook for plotting predictions of AC.
   |_📄 utils.py                                        # Contains utility functions of dataloader, loss functions, etc. 
-:file_folder: Darcy_triangle                # Contains files of the Allen Cahn equation.
+📂 Darcy_triangle                # Contains files of the Allen Cahn equation.
   |_📂 data                      # Folder for storing data.
   |_📂 data_generation           # Contains functions for generating data.
     |_📂 code_for_plotting
@@ -51,7 +51,7 @@ Multi-fidelity wavelet neural operator surrogate model for time-independent and 
   |_📄 MFWNO_Darcy_notch_50samples.ipynb                # Notebook for training MFWNO on Darcys's with HF 50 data.
   |_📄 Predictions_Darcy_notch.ipynb                    # Notebook for plotting predictions of Darcy equation from MFWNO.
   |_📄 utils.py                # Contains utility functions of dataloader, loss functions, etc. 
-:file_folder: Poisson_stochastic          # Contains files of the Allen Cahn equation.
+📂 Poisson_stochastic          # Contains files of the Allen Cahn equation.
   |_📂 data                    # Folder for storing DATA.
   |_📂 model                   # Folder for storing trained models.
   |_📄 Data_generation_Poisson_1d.ipynb               # Generates training data for Poisson's equation.
