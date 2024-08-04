@@ -14,8 +14,8 @@ Multi-fidelity wavelet neural operator surrogate model for time-independent and 
     |_📄 Allen_cahn_Init.m                         # Generates random initial conditions for the Allen Cahn equation.
     |_📄 RandField_Matern.m                        # Generates random fields using Mattern kernel.
     |_📄 stationary_Gaussian_process.m             # Contains functions for constructing kernels.
-  |_📂 model                      # Folder for storing trained models.
-  |_📂 results                    # Folder for storing analysis results post-training.
+  |_📁 model                      # Folder for storing trained models.
+  |_📁 results                    # Folder for storing analysis results post-training.
   |_📄 Data_generation_Allen_Cahn2d.ipynb          # File for training data generation.
   |_📄 Deeponet_multifid_AC_size_20.ipynb          # Sample for training MF-DeepONet.
   |_📄 Multifid_WNO_AC_20_Reliability.ipynb        # Notebook for Reliability analysis of AC with HF 20 data.
@@ -29,14 +29,14 @@ Multi-fidelity wavelet neural operator surrogate model for time-independent and 
   |_📄 Predictions_Allen_Cahn.ipynb                # Notebook for plotting predictions of AC.
   |_📄 utils.py                                        # Contains utility functions of dataloader, loss functions, etc. 
 📂 Darcy_triangle                # Contains files of the Allen Cahn equation.
-  |_📂 data                      # Folder for storing data.
+  |_📁 data                      # Folder for storing data.
   |_📂 data_generation           # Contains functions for generating data.
-    |_📂 code_for_plotting
+    |_📁 code_for_plotting
     |_📂 ensemble_generation
       |_📄 bcvalues.m
       |_📄 main.m
       |_📄 ubc.m
-  |_📂 model                     # Folder for storing trained models.
+  |_📁 model                     # Folder for storing trained models.
   |_📄 Deeponet_multifid_Darcy_triangle_size_10.ipynb        # Notebook for training MF-DeepONet of 10 data.
   |_📄 Deeponet_multifid_Darcy_triangle_size_20.ipynb        # Notebook for training MF-DeepONet of 20 data.
   |_📄 Deeponet_multifid_Darcy_triangle_size_30.ipynb        # Notebook for training MF-DeepONet of 30 data.
@@ -52,8 +52,8 @@ Multi-fidelity wavelet neural operator surrogate model for time-independent and 
   |_📄 Predictions_Darcy_notch.ipynb                    # Notebook for plotting predictions of Darcy equation from MFWNO.
   |_📄 utils.py                # Contains utility functions of dataloader, loss functions, etc. 
 📂 Poisson_stochastic          # Contains files of the Allen Cahn equation.
-  |_📂 data                    # Folder for storing DATA.
-  |_📂 model                   # Folder for storing trained models.
+  |_📁 data                    # Folder for storing DATA.
+  |_📁 model                   # Folder for storing trained models.
   |_📄 Data_generation_Poisson_1d.ipynb               # Generates training data for Poisson's equation.
   |_📄 Deeponet_multifid_Poisson1d_size_10.ipynb      # Notebook for training MF-DeepONet of 10 data.
   |_📄 Deeponet_multifid_Poisson1d_size_20.ipynb      # Notebook for training MF-DeepONet of 10 data.
